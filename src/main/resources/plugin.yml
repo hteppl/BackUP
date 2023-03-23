@@ -1,7 +1,7 @@
 name: BackUP
 main: me.hteppl.backup.Loader
 version: "${pom.version}"
-api: 1.0.13
+api: ["1.0.13", "1.0.14"]
 authors:
   - "https://github.com/hteppl"
   - "https://github.com/IWareQ"
