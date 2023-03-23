@@ -2,7 +2,7 @@
 frequency: 2
 # compression level 0-9
 compression: 9
-# default backups path
+# default backups folder (near plugins, worlds, etc.)
 path: "backups"
 # log compressed files names in console
 log: false
