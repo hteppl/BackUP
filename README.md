@@ -64,5 +64,5 @@ compression: 9
 # default backups path
 path: "backups"
 # log compressed files names in console
-log: true
+log: false
 ```

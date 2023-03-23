@@ -23,7 +23,7 @@ public class BackupManager {
         this.frequency = config.getInt("frequency", 2);
         this.compression = config.getInt("compression", 9);
         this.path = config.getString("path", "backups");
-        this.log = config.getBoolean("log", true);
+        this.log = config.getBoolean("log", false);
         this.lastBackupTime = getLastBackupTime(config.get("backups", new LinkedHashMap<>()));
     }
 
