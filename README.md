@@ -5,6 +5,9 @@
 
 Simple backup plugin for Nukkit Minecraft Bedrock core (and forks), that will help you to create backups with ease.
 
+Please note, that this plugin will work only on UNIX-based OS, because of
+[**Parallel Virtual File System**](https://en.wikipedia.org/wiki/Parallel_Virtual_File_System) needed.
+
 ## Libraries
 
 [**Nukkit**](https://github.com/CloudburstMC/Nukkit) is nuclear-powered server software for Minecraft: Pocket Edition
@@ -18,7 +21,6 @@ enough. Also, you can configure some default settings in `config.yml`.
 ### Maven
 
 ```xml
-
 <repositories>
     <repository>
         <id>jitpack.io</id>
@@ -28,7 +30,6 @@ enough. Also, you can configure some default settings in `config.yml`.
 ```
 
 ```xml
-
 <dependency>
     <groupId>com.github.hteppl</groupId>
     <artifactId>BackUP</artifactId>
