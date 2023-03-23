@@ -1,0 +1,11 @@
+# backups frequency time in days
+frequency: 2
+# compression level 0-9
+compression: 9
+# default backups path
+path: "backups"
+# log compressed files names in console
+log: true
+
+# backup log system section (DO NOT EDIT THIS)
+backups:
